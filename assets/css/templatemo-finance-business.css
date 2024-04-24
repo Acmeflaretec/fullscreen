@@ -243,10 +243,11 @@ header {
     transition: all 0.3s ease-in-out 0s;
 }
 header .navbar {
-	padding: 20px 0px;
+	padding: 15px 0px;
 }
 .background-header .navbar {
 	padding: 10px 0px;
+	background-color: white;
 }
 .background-header {
 	top: 0;
@@ -269,7 +270,6 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 12px;
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -323,7 +323,7 @@ header .navbar {
 	border-radius: 0px;
 	position: absolute;
 	right: 30px;
-	top: 20px;
+	top: 33px;
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';

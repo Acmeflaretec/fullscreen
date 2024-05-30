@@ -20,17 +20,17 @@ jQuery( document ).ready(function( $ ) {
             }, 300);
         });       
 
-        $(window).scroll(function() {
-          var scroll = $(window).scrollTop();
-          var box = $('.header-text').height();
-          var header = $('header').height();
+        // $(window).scroll(function() {
+        //   var scroll = $(window).scrollTop();
+        //   var box = $('.header-text').height();
+        //   var header = $('header').height();
 
-          if (scroll >= box - header) {
-            $("header").addClass("background-header");
-          } else {
-            $("header").removeClass("background-header");
-          }
-        });
+        //   if (scroll >= box - header) {
+        //     $("header").addClass("background-header");
+        //   } else {
+        //     $("header").removeClass("background-header");
+        //   }
+        // });
 		if ($('.owl-testimonials').length) {
             $('.owl-testimonials').owlCarousel({
                 loop: true,
